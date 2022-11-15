@@ -13,7 +13,30 @@ public class Solution {
         return s_short;
     }
 
-    public static int solution(String input, char[] keys){
+    public static int solution(String input, char[] keys) throws SolutionException
+    {
+      return solution(input, keys, 200000);
+    }
+
+    public static int solution(String input) throws SolutionException
+    {
+        return solution(input, "BALLOON".toCharArray());
+    }
+
+    public static int solution(String input, char[] keys, int input_max_length) throws SolutionException {
+
+        if (input.length() > input_max_length) {
+            throw new SolutionException("Input is larger than " + input_max_length + ".");
+        }
+
+        if (input.matches(".*\\d.*")) { //To check if input contains any numbers.
+            throw new SolutionException("Input text contains numbers.");
+        }
+
+        if (!input.matches("[A-Z]+")) { //To check if input is not only [A-Z].
+            throw new SolutionException("Input text is contains lower case letters.");
+        }
+
         int counter = 0;
         while(true){
             String output = removeAllChars(input, keys);
