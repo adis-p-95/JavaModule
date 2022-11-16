@@ -4,10 +4,10 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="6095d1ac-f314-448e-b3df-0b06d7ec906c" name="Changes" comment="initial commit">
+    <list default="true" id="6095d1ac-f314-448e-b3df-0b06d7ec906c" name="Changes" comment="exception handling">
       <change afterPath="$PROJECT_DIR$/src/test/java/SolutionTests.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/Program.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/Program.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/Solution.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/Solution.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -43,7 +43,7 @@
     &quot;project.structure.side.proportion&quot;: &quot;0.0&quot;
   }
 }</component>
-  <component name="RunManager" selected="TestNG.SolutionTests.TestSolutionWhenInputIsLarger">
+  <component name="RunManager" selected="TestNG.SolutionTests.TestSolutionWhenInputContainsNumber">
     <configuration name="Program" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="Program" />
       <module name="JavaModule" />
@@ -75,6 +75,18 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
+    <configuration name="SolutionTests.ValidTestRepeatCountIs1" type="TestNG" temporary="true" nameIsGenerated="true">
+      <module name="JavaModule" />
+      <option name="PACKAGE_NAME" value="" />
+      <option name="MAIN_CLASS_NAME" value="SolutionTests" />
+      <option name="METHOD_NAME" value="ValidTestRepeatCountIs1" />
+      <option name="TEST_OBJECT" value="METHOD" />
+      <properties />
+      <listeners />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <configuration name="SolutionTests.ValidTestRepeatCountIs2" type="TestNG" temporary="true" nameIsGenerated="true">
       <module name="JavaModule" />
       <option name="PACKAGE_NAME" value="" />
@@ -87,25 +99,13 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="SolutionTests.ValidTestRepetCountIs1" type="TestNG" temporary="true" nameIsGenerated="true">
-      <module name="JavaModule" />
-      <option name="PACKAGE_NAME" value="" />
-      <option name="MAIN_CLASS_NAME" value="SolutionTests" />
-      <option name="METHOD_NAME" value="ValidTestRepetCountIs1" />
-      <option name="TEST_OBJECT" value="METHOD" />
-      <properties />
-      <listeners />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
     <recent_temporary>
       <list>
-        <item itemvalue="TestNG.SolutionTests.TestSolutionWhenInputIsLarger" />
-        <item itemvalue="Application.Program" />
-        <item itemvalue="TestNG.SolutionTests.ValidTestRepeatCountIs2" />
-        <item itemvalue="TestNG.SolutionTests.ValidTestRepetCountIs1" />
         <item itemvalue="TestNG.SolutionTests.TestSolutionWhenInputContainsNumber" />
+        <item itemvalue="TestNG.SolutionTests.ValidTestRepeatCountIs1" />
+        <item itemvalue="TestNG.SolutionTests.TestSolutionWhenInputIsLarger" />
+        <item itemvalue="TestNG.SolutionTests.ValidTestRepeatCountIs2" />
+        <item itemvalue="Application.Program" />
       </list>
     </recent_temporary>
   </component>
@@ -125,7 +125,14 @@
       <option name="project" value="LOCAL" />
       <updated>1668498171395</updated>
     </task>
-    <option name="localTasksCounter" value="2" />
+    <task id="LOCAL-00002" summary="exception handling">
+      <created>1668594672940</created>
+      <option name="number" value="00002" />
+      <option name="presentableId" value="LOCAL-00002" />
+      <option name="project" value="LOCAL" />
+      <updated>1668594672940</updated>
+    </task>
+    <option name="localTasksCounter" value="3" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -141,6 +148,7 @@
   </component>
   <component name="VcsManagerConfiguration">
     <MESSAGE value="initial commit" />
-    <option name="LAST_COMMIT_MESSAGE" value="initial commit" />
+    <MESSAGE value="exception handling" />
+    <option name="LAST_COMMIT_MESSAGE" value="exception handling" />
   </component>
 </project>

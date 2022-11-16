@@ -18,11 +18,6 @@ public class Solution {
       return solution(input, keys, 200000);
     }
 
-    public static int solution(String input) throws SolutionException
-    {
-        return solution(input, "BALLOON".toCharArray());
-    }
-
     public static int solution(String input, char[] keys, int input_max_length) throws SolutionException {
 
         if (input.length() > input_max_length) {
