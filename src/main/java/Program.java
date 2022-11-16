@@ -31,13 +31,13 @@ public class Program {
             outputText.close();
         }
         catch (FileNotFoundException exception) {
-            System.out.println("File related error: " + exception.getMessage());
+            System.out.println("File related error: " + exception.getMessage());//scanner cant find related file
         }
         catch (IllegalStateException exception) {
-            System.out.println("Scanner related error:" + exception.getMessage());
+            System.out.println("Scanner related error:" + exception.getMessage()); //next.Line
         }
         catch (IOException exception) {
-            System.out.println("Unable to read/write to file. Error: " + exception.getMessage());
+            System.out.println("Unable to read/write to file. Error: " + exception.getMessage()); //append
         }
     }
 }
