@@ -4,14 +4,12 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="6095d1ac-f314-448e-b3df-0b06d7ec906c" name="Changes" comment="exception handling">
+    <list default="true" id="6095d1ac-f314-448e-b3df-0b06d7ec906c" name="Changes" comment="solution tests">
+      <change afterPath="$PROJECT_DIR$/src/main/java/SolutionHttpHandler.java" afterDir="false" />
       <change afterPath="$PROJECT_DIR$/src/test/java/SolutionMockitoTests.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/SolutionPowerMock.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/SolutionTests.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/java/Program.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/Program.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/Solution.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/Solution.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -47,23 +45,18 @@
     &quot;project.structure.side.proportion&quot;: &quot;0.0&quot;
   }
 }</component>
-  <component name="RunManager" selected="TestNG.SolutionTests">
-    <configuration name="SolutionMockitoTests.TestSolutionWhenTextContainsNumbers" type="TestNG" temporary="true" nameIsGenerated="true">
+  <component name="RunManager" selected="TestNG.SolutionMockitoTests">
+    <configuration name="Program" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="Program" />
       <module name="JavaModule" />
-      <option name="PACKAGE_NAME" value="" />
-      <option name="MAIN_CLASS_NAME" value="SolutionMockitoTests" />
-      <option name="METHOD_NAME" value="TestSolutionWhenTextContainsNumbers" />
-      <option name="TEST_OBJECT" value="METHOD" />
-      <properties />
-      <listeners />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="SolutionPowerMock" type="TestNG" temporary="true" nameIsGenerated="true">
+    <configuration name="SolutionMockitoTests" type="TestNG" temporary="true" nameIsGenerated="true">
       <module name="JavaModule" />
       <option name="PACKAGE_NAME" value="" />
-      <option name="MAIN_CLASS_NAME" value="SolutionPowerMock" />
+      <option name="MAIN_CLASS_NAME" value="SolutionMockitoTests" />
       <option name="TEST_OBJECT" value="CLASS" />
       <properties />
       <listeners />
@@ -71,11 +64,23 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="SolutionPowerMock.TestSolutionWhenInputIsLarger" type="TestNG" temporary="true" nameIsGenerated="true">
+    <configuration name="SolutionMockitoTests.TestSolutionAlwaysReturn50" type="TestNG" temporary="true" nameIsGenerated="true">
       <module name="JavaModule" />
       <option name="PACKAGE_NAME" value="" />
-      <option name="MAIN_CLASS_NAME" value="SolutionPowerMock" />
-      <option name="METHOD_NAME" value="TestSolutionWhenInputIsLarger" />
+      <option name="MAIN_CLASS_NAME" value="SolutionMockitoTests" />
+      <option name="METHOD_NAME" value="TestSolutionAlwaysReturn50" />
+      <option name="TEST_OBJECT" value="METHOD" />
+      <properties />
+      <listeners />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="SolutionMockitoTests.TestSolutionWhenInputHaveLowerLetters" type="TestNG" temporary="true" nameIsGenerated="true">
+      <module name="JavaModule" />
+      <option name="PACKAGE_NAME" value="" />
+      <option name="MAIN_CLASS_NAME" value="SolutionMockitoTests" />
+      <option name="METHOD_NAME" value="TestSolutionWhenInputHaveLowerLetters" />
       <option name="TEST_OBJECT" value="METHOD" />
       <properties />
       <listeners />
@@ -94,25 +99,13 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="SolutionTests.TestSolutionWhenInputContainsNumber" type="TestNG" temporary="true" nameIsGenerated="true">
-      <module name="JavaModule" />
-      <option name="PACKAGE_NAME" value="" />
-      <option name="MAIN_CLASS_NAME" value="SolutionTests" />
-      <option name="METHOD_NAME" value="TestSolutionWhenInputContainsNumber" />
-      <option name="TEST_OBJECT" value="METHOD" />
-      <properties />
-      <listeners />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="TestNG.SolutionMockitoTests" />
         <item itemvalue="TestNG.SolutionTests" />
-        <item itemvalue="TestNG.SolutionTests.TestSolutionWhenInputContainsNumber" />
-        <item itemvalue="TestNG.SolutionPowerMock" />
-        <item itemvalue="TestNG.SolutionPowerMock.TestSolutionWhenInputIsLarger" />
-        <item itemvalue="TestNG.SolutionMockitoTests.TestSolutionWhenTextContainsNumbers" />
+        <item itemvalue="TestNG.SolutionMockitoTests.TestSolutionWhenInputHaveLowerLetters" />
+        <item itemvalue="TestNG.SolutionMockitoTests.TestSolutionAlwaysReturn50" />
+        <item itemvalue="Application.Program" />
       </list>
     </recent_temporary>
   </component>
@@ -146,7 +139,14 @@
       <option name="project" value="LOCAL" />
       <updated>1668595798842</updated>
     </task>
-    <option name="localTasksCounter" value="4" />
+    <task id="LOCAL-00004" summary="solution tests">
+      <created>1668691243120</created>
+      <option name="number" value="00004" />
+      <option name="presentableId" value="LOCAL-00004" />
+      <option name="project" value="LOCAL" />
+      <updated>1668691243120</updated>
+    </task>
+    <option name="localTasksCounter" value="5" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -163,7 +163,19 @@
   <component name="VcsManagerConfiguration">
     <MESSAGE value="initial commit" />
     <MESSAGE value="exception handling" />
-    <option name="LAST_COMMIT_MESSAGE" value="exception handling" />
+    <MESSAGE value="solution tests" />
+    <option name="LAST_COMMIT_MESSAGE" value="solution tests" />
+  </component>
+  <component name="XDebuggerManager">
+    <breakpoint-manager>
+      <breakpoints>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/test/java/SolutionMockitoTests.java</url>
+          <line>7</line>
+          <option name="timeStamp" value="17" />
+        </line-breakpoint>
+      </breakpoints>
+    </breakpoint-manager>
   </component>
   <component name="com.intellij.coverage.CoverageDataManagerImpl">
     <SUITE FILE_PATH="coverage/JavaModule$SolutionTests.ic" NAME="SolutionTests Coverage Results" MODIFIED="1668678063790" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="idea" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" />
