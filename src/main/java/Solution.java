@@ -1,6 +1,6 @@
 public class Solution {
 
-    private static String removeAllChars(String s, char[] chars){
+    private String removeAllChars(String s, char[] chars){
         String s_short = s;
         for(int i = 0; i < chars.length; i++) {
             int j = s_short.indexOf(chars[i]);
@@ -13,12 +13,12 @@ public class Solution {
         return s_short;
     }
 
-    public static int solution(String input, char[] keys) throws SolutionException
+    public int solution(String input, char[] keys) throws SolutionException
     {
       return solution(input, keys, 200000);
     }
 
-    public static int solution(String input, char[] keys, int input_max_length) throws SolutionException {
+    public int solution(String input, char[] keys, int input_max_length) throws SolutionException {
 
         if (input.length() > input_max_length) {
             throw new SolutionException("Input is larger than " + input_max_length + ".");
@@ -29,7 +29,7 @@ public class Solution {
         }
 
         if (!input.matches("[A-Z]+")) { //To check if input is not only [A-Z].
-            throw new SolutionException("Input text is contains lower case letters.");
+            throw new SolutionException("Input text contains lower case letters.");
         }
 
         int counter = 0;

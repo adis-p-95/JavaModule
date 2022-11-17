@@ -3,6 +3,7 @@ import java.util.Scanner;
 
 public class Program {
 
+    private static Solution solution = new Solution();
     public static void main(String args[]) {
 
         try {
@@ -20,7 +21,7 @@ public class Program {
             while (inputText.hasNextLine()) {
                 String dataText = inputText.nextLine();
                 try {
-                    int repeat_counter = Solution.solution(dataText, dataKeys.toCharArray());
+                    int repeat_counter = solution.solution(dataText, dataKeys.toCharArray());
                     total_counter = total_counter + repeat_counter;
                     outputText.append(repeat_counter + " matches in line " + dataText + ".\r\n");
                 } catch (SolutionException exception) {
