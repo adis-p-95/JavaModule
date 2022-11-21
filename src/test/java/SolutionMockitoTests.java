@@ -32,6 +32,4 @@ public class SolutionMockitoTests {
         when(solution_mock.solution(anyString(), any(char[].class))).thenThrow(new SolutionException("Text contains numbers."));
         int repeat_counter = solution_mock.solution("123ABC", "ABC".toCharArray());
     }
-
-
 }

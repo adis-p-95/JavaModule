@@ -38,4 +38,8 @@ public class SolutionTests {
         int repeat_counter = solution.solution("QAWABAWON", "BALLOON".toCharArray());
         Assert.assertEquals(repeat_counter, 0);
     }
+
+    @Test(testName = "Testing Get request", expectedExceptions = {SolutionException.class}, expectedExceptionsMessageRegExp = "Unsupported path.")
+    public void TestWhenGetRequestHaveWrongKeyPath() throws SolutionException {
+    }
 }
